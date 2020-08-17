@@ -50,7 +50,7 @@ Install DHT sensor labs in arduino IDE as library
 - Source: https://github.com/adafruit/DHT-sensor-library
 - Follow source: https://lastminuteengineers.com/esp8266-dht11-dht22-web-server-tutorial/
 
-# Function
+# Functions
 
 ## Hello
 
@@ -68,9 +68,3 @@ Install DHT sensor labs in arduino IDE as library
   This will anwser a JSON with following structure:
   `{"infos":{ "temperature": "XX", "humidite": "YY"}}`
 
-# Todo
-
-- Evaluate configuration file: 
-  - https://wiki.calculquebec.ca/w/C%2B%2B_:_fichier_de_configuration
-  - https://www.fluentcpp.com/2019/07/23/how-to-define-a-global-constant-in-cpp/
-  - http://www.adp-gmbh.ch/cpp/config_file.html
