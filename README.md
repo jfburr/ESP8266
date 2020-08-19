@@ -45,10 +45,12 @@ Installation on macOS 10.15.6
 
 #### DHT11
 
-Install DHT sensor labs in arduino IDE as library
-
+Install DHT sensor labs in arduino IDE as library.
+Depending of your sensor you might have to use different connections setup with different additional resistance:
 - Source: https://github.com/adafruit/DHT-sensor-library
-- Follow source: https://lastminuteengineers.com/esp8266-dht11-dht22-web-server-tutorial/
+- Setup: https://lastminuteengineers.com/esp8266-dht11-dht22-web-server-tutorial/
+- OR https://circuits4you.com/2019/01/25/interfacing-dht11-with-nodemcu-example/
+Depending on the pin you choose to connect the sensor watch to properly update the DHTPIN value.
 
 # Functions
 
